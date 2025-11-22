@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 1080px;
+	background-color: #f8f9f9;
+}
+
+nav {
+	background-color: #f1dadb;
+	margin-bottom: 10px;
+}
+
+.topMenu {
+	padding: 5px 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav>ul>il {
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav>ul a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu {
+	text-align: right;
+	list-style-type: none;
+	font-size: 18px;
+	font-family: HGDY_CNKI;
+}
+
+.Logo {
+	width: auto;
+	height: 50px;
+	object-fit: contain;
+}
+
+.beijingtupian {
+	width: 100%;
+	height: 360px;
+	margin-bottom: 20px;
+	background-image: url(./images/beijingtupian.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner .mask {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 50px 60px 0 60px;
+}
+
+.banner .mask>h1 {
+	font-size: 40px;
+	margin-bottom: 60px;
+}
+
+.banner .mask>p {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.btn {
+	border-radius: 6px;
+	width: 130px;
+	height: 50px;
+	border: none;
+	background-color: #f2cbcc;
+}
+
+.btn>a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.content {
+	padding-bottom: 10px;
+}
+
+.content-box {
+	margin-bottom: 20px;
+}
+
+.content-box.one {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content-box .box-left {
+	background-color: #f1dadb;
+	border-radius: 6px;
+	padding: 40px 30px;
+	width: 320px;
+}
+
+.content-box .box-left h2 {
+	font-size: 38px;
+	margin-bottom: 30px;
+}
+
+.content-box .box-left p {
+	line-height: 24px;
+}
+
+.content-box .box-middle {
+	padding: 0px 60px;
+}
+
+.content-box .box-middle h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.content-box .box-middle ul {
+	padding-left: 50px;
+}
+
+.content-box .box-middle ul li {
+	margin-top: 20px;
+}
+
+.content-box .box-middle ul li:nth-child(1) {
+	color: pink;
+}
+
+.content-box .box-middle ul li:nth-child(2) {
+	color: #a8d8e2;
+}
+
+.content-box .box-middle ul li:nth-child(3) {
+	color: #c6d182;
+}
+
+.content-box .box-middle ul li:nth-child(4) {
+	color: #b059b3;
+}
+
+.content-box .box-middle ul li:nth-child(5) {
+	color: #deb41d;
+}
+
+.content-box .box-right .xiaochajian {
+	width: 340px;
+	height: 225px;
+}
+
+.content-box .title {
+	font-size: 20px;
+	border-bottom: 1px solid #ae98b6;
+	margin-bottom: 16px;
+}
+
+.content-box.two .box,  .content-box.three .box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-box.two .box .Courses {
+	width: 16%;
+	height: 180px;
+	border: 2px solid #DCDFE6;
+	color: #ae98b6;
+	padding: 30px;
+}
+
+.content-box.two .box .Courses:last-child {
+	color: #302e59;
+	background-color: #ae98b6;
+}
+
+.content-box.two .box .Courses h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.content-box.three .box .staff {
+	width: 20%;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.content-box.three .box .staff ul {
+	list-style: none;
+}
+
+.content-box.three .box .staff ul .tupian {
+	width: 210px;
+	height: 210px;
+}
+
+.content-box.three .box .staff ul li {
+	margin-bottom: 5px;
+}
+
+.content-box.four .event-box {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.content-box.four .event-box .event-box-left .picture {
+	width: 680px;
+	height: 400px;
+	object-fit: cover;
+}
+
+.content-box.four .event-box .event-box-right {
+	padding: 20px 40px;
+}
+
+.content-box.four .event-box .event-box-right h2 {
+	text-align: center;
+	color: #636887;
+	margin-bottom: 40px;
+}
+
+.content-box.four .event-box .event-box-right p {
+	line-height: 36px;
+	text-indent: 32px;
+}
+
+.content-box.five .Contact div {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.content-box.five .Contact div img {
+	width: 21px;
+	height: 21px;
+	margin-right: 5px;
+}
